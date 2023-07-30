@@ -7,10 +7,19 @@ objc.import("MLCompute");
 export const {
   MLCPlatform,
   MLCTensor,
+  MLCTensorData,
+  MLCGraph,
+  MLCInferenceGraph,
+  MLCMatMulLayer,
+  MLCMatMulDescriptor,
+  MLCArithmeticLayer,
+  MLCDevice,
+  
 
   // types
   NSNumber,
   MLCTensorDescriptor,
   MLCDataType,
-  MLCDataTypeInt32
+  MLCDataTypeFloat32,
+  MLCDataTypeInt32,
 } = objc.classes;
